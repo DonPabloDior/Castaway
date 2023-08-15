@@ -35,9 +35,8 @@ function watch(){
     gulp.watch('src/**/*.html', html).on('change', browserSync.reload);
     gulp.watch('./js/**/*.js', js);
 }
-function build() {
-    return gulp.series(style, html, js);
-  }
+const build = gulp.series(style, html, js);
+
 
 exports.style = style;
 exports.watch = watch;
