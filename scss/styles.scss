@@ -1,0 +1,24 @@
+@import 'utils/variables';
+@import '_header';
+@import '_hero';
+@import '_episodes';
+@import '_host';
+@import '_newsletter';
+@import '_reviews';
+@import '_footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $primary-color;
+}
+
+.all-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

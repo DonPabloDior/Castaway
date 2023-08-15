@@ -1,0 +1,83 @@
+.host-container {
+    width: 1440px;
+    height: 943px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+
+    .host-info {
+        color: $text-color;
+        max-width: 590px;
+        height: 448px;
+        margin-top: 147px;
+        margin-right: 60px;
+
+
+        button {
+            width: 112px;
+            height: 112px;
+            border-radius: 100%;
+            background-color: $secondary-color;
+            border: none;
+
+            &:hover {
+                cursor: pointer;
+                background-color: #186c80;
+                transition: 0.3s ease all;
+
+                svg {
+                    transform: translateX(7px);
+                    transition: 0.3s ease all;
+                }
+            }
+
+            svg {
+                width: 108px;
+                height: 64px;
+            }
+        }
+
+        .host-tag {
+            font-family: DM Sans;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: $secondary-color;
+            margin-top: 20px;
+            max-width: 126px;
+            height: 27px;
+        }
+
+        .host-title {
+            font-family: DM Sans;
+            font-size: 65px;
+            font-weight: 400;
+            line-height: 79px;
+            letter-spacing: 2.880000114440918px;
+            text-align: left;
+            max-width: 499px;
+            height: 80px;
+        }
+
+        .host-subtitle {
+            font-family: DM Sans;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0em;
+            text-align: left;
+            max-width: 556px;
+            height: 66px;
+            color: #ffffffad;
+            margin-top: 28px;
+
+        }
+    }
+
+    .jacob {
+        width: 650px;
+        height: 743px;
+    }
+}

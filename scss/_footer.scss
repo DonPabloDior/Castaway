@@ -1,0 +1,98 @@
+.footer-container {
+    display: flex;
+    color: $text-color;
+    width: 1440px;
+    height: 438px;
+    padding-top: 100px;
+
+    .Logo-wrap {
+        &:first-child {
+            width: 224px;
+            height: 46px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .footer-icons {
+            display: flex;
+            margin-top: 20px;
+            gap: 10px;
+            width: 46px;
+
+            .socials img {
+                width: 24px;
+                height: 24px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+
+    .footer-home-wrap {
+        font-family: DM Sans;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 179px;
+        height: 222px;
+
+        margin-right: 16px;
+        margin-left: 239px;
+
+        p {
+            height: 27px;
+            padding-bottom: 10px;
+
+            &:hover {
+                transition: 0.3s ease all;
+                color: $secondary-color;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .footer-instruction-wrap {
+        font-family: DM Sans;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 179px;
+        height: 222px;
+
+        p {
+            height: 27px;
+            padding-bottom: 10px;
+
+            &:hover {
+                transition: 0.3s ease all;
+                color: $secondary-color;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 17px;
+        padding-left: 16px;
+
+        .listen-icons {
+            list-style: none;
+
+            &:hover {
+                color: $secondary-color;
+                cursor: pointer;
+            }
+        }
+    }
+
+}

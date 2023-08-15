@@ -1,0 +1,28 @@
+.nav-item {
+    margin: 0 20px;
+    position: relative;
+
+    &.active::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        bottom: -5px;
+        left: 0;
+    }
+
+    .line {
+        position: absolute;
+        width: 100px;
+        height: 2px;
+        background-color: black;
+        bottom: -5px;
+        transition: transform 0.3s ease;
+
+        &.active {
+            transform: translateX(calc(-50% + 20px)); /* Adjust to center the line under active item */
+        }
+    }
+}

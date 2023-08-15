@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+
+    width: 1440px;
+    height: 913px;
+
+    img {
+        height: 873px;
+        width: 650px;
+    }
+
+    .hero-wrap {}
+
+    .hero-text {
+        margin: 294px 0;
+        margin-left: 60px;
+        max-width: 526px;
+    }
+
+    .hero-title {
+        color: $text-color;
+        font-family: DM Sans;
+        font-size: 70px;
+        font-weight: 400;
+        line-height: 88px;
+        letter-spacing: 3.200000047683716px;
+        text-align: left;
+
+    }
+
+    .next-level {
+        display: flex;
+        gap: 25px;
+    }
+
+    .line {
+        position: relative;
+
+        img {
+            width: 160px;
+            height: 104px;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+        }
+    }
+
+    .bold {
+        font-family: DM Sans;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 88px;
+        letter-spacing: 3.200000047683716px;
+        text-align: left;
+
+    }
+
+    .hero-text-icons-wrap {
+        color: $text-color;
+        font-family: DM Sans;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-top: 74px;
+
+        p {
+            margin-left: 22px;
+            margin-bottom: 16px;
+        }
+
+    }
+
+    .icons-wrap {
+        display: flex;
+        padding: 0 17px;
+        gap: 17px;
+        list-style: none;
+    }
+
+    .listen-icons {
+        img {
+
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+        }
+    }
+
+}

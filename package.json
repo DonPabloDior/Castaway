@@ -1,0 +1,23 @@
+{
+  "name": "castaway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^9.0.0",
+    "sass": "^1.65.1"
+  },
+  "dependencies": {
+    "gsap": "^3.12.2",
+    "scrolltrigger": "^1.0.1"
+  }
+}
